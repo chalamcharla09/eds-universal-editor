@@ -79,8 +79,8 @@
       ]
     },
     {
-      "title": "Blocks1",
-      "id": "blocks1",
+      "title": "Blocks",
+      "id": "blocks",
       "components": [
         {
           "title": "Cards",
@@ -152,6 +152,23 @@
                 "template": {
                   "name": "Hero",
                   "model": "hero"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Quote",
+          "id": "quote",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Quote",
+                  "model": "quote",
+                  "quote": "Hello Ravi",
+                  "author": "Ravi"
                 }
               }
             }
